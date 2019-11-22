@@ -1,0 +1,381 @@
+
+.index-banner{
+	position:relative;
+	height:304px;
+	background:rgb(237,244,237);
+	margin:0 auto;
+	margin-left:-16px;
+	}
+.banner-container{
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	padding-left:16px;
+	}
+.index-banner .banner-bg{
+	display:inline-block;
+	float:left;
+	}
+.index-banner .banner-bg{
+	float:left;
+	}
+.index-banner .banner-bg .bg{
+	margin-left:-212px;
+	}
+.index-banner .banner-col2{
+	float:left;
+	position:relative;
+	overflow:visible;
+	}
+.index-banner .banner-col2 p{
+	margin-top:94px;
+	margin-left:-53px;
+	font-size:25px;
+	}
+.index-banner .banner-col2 p > span{
+	margin-left:3px;
+	}
+.index-banner .banner-col2 button{
+	display:inline-block;
+	margin-left:-53px;
+	margin-top:22px;
+	background:rgb(0,181,29);
+	border:none;
+	height:30px;
+	width:114px;
+	font-size:12px;
+	color:rgb(255,255,255);
+	padding:5px 21px 6px 21px;
+	}
+.index-banner .banner-col2 .col2-imagin{
+	margin-bottom:-11px;
+	margin-left:1px;
+	display:inline-block;
+	border:1px rgb(72,170,13) solid;
+	}
+.index-banner .login-interface{
+	display:inline-block;
+	margin-left:36px;
+	margin-top:10px;
+	width:280px;
+	}	
+.index-banner .login-interface .login-header li{
+	margin-top:19px;
+	float:left;
+	font-size:14px;
+	}
+.index-banner .login-interface .login-header .item1{
+	padding:4px 21px;
+	border-bottom:1px #000 solid;
+	font-weight:bold;
+	color:rgb(51,51,51);
+	}
+.index-banner .login-interface .login-header .item2{
+	margin-left:23px;
+	padding:4px 0px 4px 21px;
+	color:rgb(155,155,155);
+	font-size:13px;
+	}
+	
+.index-banner .login-interface .login-header .header-imagin {
+	display:block;
+	margin-left:14px;
+	margin-top:-20px;
+	}
+.index-banner .login-interface .login-textarea .textarea-header{
+	margin:12px 0;
+	font-size:12px;
+	color:rgb(155,155,155);
+	}
+.index-banner .login-interface .login-textarea .textarea-header a{
+	display:inline-block;
+	color:rgb(65,172,82);
+	}
+.index-banner .login-interface .login-textarea .text-body{
+	width:1000px;
+	}
+.index-banner .login-interface .login-textarea .text-body .ph-number{
+	margin-top:-1px;
+	height:32px;
+	width:278px;
+	border:1px rgb(228,230,229) solid;
+	}
+.index-banner .login-interface .login-textarea .text-body .verification-code{
+	margin-top:10px;
+	height:32px;
+	width:278px;
+	border:1px rgb(228,230,229) solid;
+	}
+.index-banner .login-interface .login-textarea .text-body .ph{
+	margin-left:-266px;
+	font-size:13px;
+	color:rgb(117,117,117);
+	}
+
+.index-banner .login-interface .login-textarea .text-body .code{
+	margin-left:-269px;
+	font-size:13px;
+	color:rgb(117,117,117);
+	}
+.index-banner .login-interface .login-textarea .text-body .get-code{
+	display:inline-block;
+	margin-left:155px;
+	font-size:13px;
+	color:rgb(65,172,82);
+	}
+.index-banner .login-interface .login-textarea .text-body .ph b{
+	font-size:15px;
+	color:rgb(51,51,51);
+	}
+.index-banner .login-interface .login-textarea .submit{
+	margin-top:10px;
+	height:34px;
+	width:280px;
+	background:rgb(151,216,161);
+	border:none;
+	font-size:15px;
+	color:#FFF;
+	padding-bottom:3px;
+	}
+.index-banner .login-interface .login-textarea .textarea-footer{
+	margin-top:10px;
+	font-size:13px;
+	color:rgb(51,51,51);
+	}
+.index-banner .login-interface .login-textarea .textarea-footer a{
+	display:inline-block;
+	margin-left:107px;
+	color:rgb(65,172,82);
+	}
+.index-banner .login-interface .login-footer{
+	margin-top:12px;
+	}
+.index-banner .login-interface .login-footer .footer-col{
+	float:left;
+	border-top:1px rgb(221,221,221) solid;
+	padding-top:10px;
+	}
+.index-banner .login-interface .login-footer .footer-col li{
+	float:left;
+	}
+.index-banner .login-interface .login-footer .footer-col li span{
+	font-size:12px;
+	color:rgb(155,155,155);
+	}
+.index-banner .login-interface .login-footer .footer-col .img1{
+	margin-left:19px;
+	margin-top:1px;
+	}
+.index-banner .login-interface .login-footer .footer-col .img2{
+	margin-left:16px;
+	margin-top:1px;
+	}
+	
+.index-list{
+	margin-top:35px;
+	height:492px;
+	}
+.index-list .list-col1{
+	float:left;
+	width:370px;
+	}
+.index-list .list-col1 .list-header .hot-content{
+	font-size:15px;
+	color:rgb(0,119,34);
+	}
+.index-list .list-col1 .list-header .hot-content a{
+	margin:0 3px;
+	color:rgb(51,119,170);
+	}
+.index-list .list-col1 .list-header .hot-content .hot-more{
+	margin-left:7px;
+	}
+.index-list .list-col1 p{
+	padding-top:2px;
+	color:rgb(51,119,170);
+	font-size:12px;
+	}
+.index-list .list-col1 span{
+	color:rgb(153,153,153);
+	font-size:11px;
+	}
+.index-list .list-col1 a{
+	display:inline-block;
+	}
+.index-list .list-col1 .list-imagin-col{
+	float:left;
+	margin-top:14px;
+	margin-right:10px;
+	}
+.index-list .list-col1 .list-imagin-col .list-imagin-line2{
+	margin-top:12px;
+	}
+.index-list .list-col2{
+	float:left;
+	width:264px;
+	margin-left:10px;
+	}
+.index-list .list-col2 .col2-line{
+	margin-top:35px;
+	}
+.index-list .list-col2 .col2-line li a{
+	color:rgb(51,119,170);
+	}
+.index-list .list-col2 .col2-line li{
+	color:rgb(102,102,102);
+	margin-bottom:15px;
+	font-size:12px;
+	}
+.index-list .list-col2 .col2-line span{
+	display:inline-block;
+	padding:1px 0;
+	}
+.index-list .list-col3{
+	float:left;
+	width:218px;
+	margin-left:41px;
+	margin-top:6px;
+	}
+.index-list .list-col3 .list-header .hot-topic{
+	font-size:15px;
+	color:rgb(0,119,34);
+	}
+.index-list .list-col3 .list-header .hot-topic a{
+	margin:0 3px;
+	color:rgb(51,119,170);
+	}
+.index-list .list-col3 .list-header .hot-topic .hot-more{
+	margin-left:3px;
+	}
+.index-list .list-col3 span{
+	color:rgb(153,153,153);
+	font-size:11px;
+	}
+.index-list .list-col3 a{
+	display:inline-block;
+	}
+.index-list .list-col3 .col3-line{
+	margin-top:8px;
+	}
+.index-list .list-col3 .col3-line li a{
+	color:rgb(51,119,170);
+	font-size:14px;
+	}
+.index-list .list-col3 .col3-line li{
+	color:rgb(177,170,188);
+	margin-bottom:13px;
+	font-size:13px;
+	}
+	
+.index-panel{
+	height:652px;
+	background:rgb(247,247,247);
+	}
+.index-panel .panel-col{
+	float:left;
+	}
+.index-panel .panel-col .col-item{
+	float:left;
+	}
+.index-panel .panel-col .panel-header{
+	margin-top:33px;
+	margin-right:24px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	color:rgb(71,71,71);
+	}
+.index-panel .panel-col .item2{
+	margin-top:40px;
+	}
+.index-panel .panel-col .col-header{
+	font-size:15px;
+	color:rgb(0,119,34);
+	}
+.index-panel .panel-col .col-header a{
+	margin:0 3px;
+	color:rgb(51,119,170);
+	font-size:9px;
+	}
+.index-panel .panel-col .col-header span{
+	font-size:9px;
+	margin-left:3px;
+	}
+.index-panel .panel-col a{
+	display:inline-block;
+	}
+.index-panel .panel-col .item2 .panel-imagin .imagin-line{
+	margin-top:14px;
+	}
+.index-panel .panel-col .item2 .panel-imagin .imagin-line .item{
+	float:left;
+	margin-right:63px;
+	width:100px;
+	height:265px;
+	}
+.index-panel .panel-col .item2 .panel-imagin .imagin-line .item a{
+	margin-top:9px;
+	font-size:13px;
+	text-align:center;
+	color:rgb(51,51,51);
+	}
+.index-panel .panel-col .item2 .panel-imagin .imagin-line .item p{
+	margin-top:8px;
+	text-align:center;
+	font-size:12px;
+	color:rgb(153,153,153);
+	}
+	
+.index-pane2{
+	height:633px;
+	}
+.index-pane2 .panel-col{
+	float:left;
+	}
+.index-pane2 .panel-col .col-item{
+	float:left;
+	}
+.index-pane2 .panel-col .panel-header{
+	margin-top:33px;
+	margin-right:72px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	color:rgb(71,71,71);
+	}
+.index-pane2 .panel-col .item2{
+	margin-top:40px;
+	}
+.index-pane2 .panel-col .col-header{
+	font-size:15px;
+	color:rgb(0,119,34);
+	}
+.index-pane2 .panel-col .col-header a{
+	color:rgb(0,119,34);
+	}
+.index-pane2 .panel-col a{
+	display:inline-block;
+	}
+.index-pane2 .panel-col .item2 .panel-imagin .imagin-line{
+	margin-top:17px;
+	}
+.index-pane2 .panel-col .item2 .panel-imagin .imagin-line .item{
+	float:left;
+	margin-right:33px;
+	width:250px;
+	height:216px;
+	}
+.index-pane2 .panel-col .item2 .panel-imagin .imagin-line .item0{
+	float:left;
+	width:250px;
+	height:216px;
+	}
+.index-pane2 .panel-col .item2 .panel-imagin .imagin-line .item a{
+	margin-top:11px;
+	font-size:13px;
+	color:rgb(51,51,51);
+	}
+.index-pane2 .panel-col .item2 .panel-imagin .imagin-line .item0 a{
+	margin-top:11px;
+	font-size:13px;
+	color:rgb(51,51,51);
+	}
+

@@ -1,0 +1,19 @@
+body,div,p,a,ul,li,button,img,input{
+    margin:0;
+    padding:0;
+    display:block;
+}
+ul,li{
+    list-style:none;
+}
+.clearfix{
+    overflow: hidden;
+    zoom:1;
+}
+.clearfix:after{
+    display:block;
+    clear:both;
+    content:"";
+    visibility:hidden;
+    height:0;
+}

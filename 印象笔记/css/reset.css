@@ -1,0 +1,17 @@
+body,div,p,input,img,ul,li,a,button{
+    margin:0;
+    padding:0;
+    display: block;
+}
+ul,li,ol{
+    list-style: none;
+}
+.clearfix{
+    height:0;
+    display:block;
+    content:".";
+    clear:both;
+}
+.clearfix :after{
+    zoom:1;
+}

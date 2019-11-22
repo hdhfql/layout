@@ -1,0 +1,11 @@
+body,div,a,p,span,h1,h2,ul,li,dd,input,textarea{
+	margin:0;
+	padding:0;
+}
+ol,ul,li,div{
+	display:block;
+}
+img{
+	border:none;
+	display:block;
+}
