@@ -60,9 +60,9 @@ window.onload = function () {
     for (i = 1; i < img_block.length; i++) {
         img_block[i].style.left = slideWidth + 'px';
     }
-    img_block[0].style.left = 00 + 'px';
+    img_block[0].style.left = 0 + 'px';
 
-    var timer = this.setInterval(function () {
+    function loop () {
         img_block[num%2].style.left = -1000 + 'px';
         img_block[num%2].style.zIndex = 1;
         line_icons[num%2].className = "line-icon line-icon-dark";
@@ -73,75 +73,34 @@ window.onload = function () {
             img_block[num%2].style.zIndex = 1;
             img_block[num%2].style.left = 1000 + 'px';
             num++;
-        }, 1600);
-    }, 3000);
+        }, 400);
+    }
 
-    // var a = -200 / 1004 / 1004,
-    //     b = a * -1004,
-    //     c = 0;
-    // function row(x) {
-    //     return a * x * x + b * x + c;
-    // }
-    // var timeid;
-    // k = 0;
-
-    // function c_slide() {
-    //     if (k == 0) {
-    //         if (img_block[k].offsetLeft + slideWidth > 2) {
-    //             img_block[k].style.left = img_block[k].offsetLeft - row(img_block[k].offsetLeft + slideWidth) + 'px';
-    //             img_block[k + 1].style.left = img_block[k + 1].offsetLeft - row(img_block[k + 1].offsetLeft) + 'px';
-    //         } else {
-    //             img_block[k].style.left = slideWidth + 'px';
-    //             img_block[k + 1].style.left = 0 + 'px';
-    //             k++;
-    //             line_icons[0].className = "line-icon line-icon-dark";
-    //             line_icons[1].className = "line-icon line-icon-light";
-    //             clearInterval(timeid);
-
-    //             // var time0 = new Date();
-    //             // var time01 = time0.getTime();
-    //             // console.log(time01);
-    //         }
-    //     } else {
-    //         if (img_block[k].offsetLeft + slideWidth > 2) {
-    //             img_block[k].style.left = img_block[k].offsetLeft - row(img_block[k].offsetLeft + slideWidth) + 'px';
-    //             img_block[0].style.left = img_block[0].offsetLeft - row(img_block[0].offsetLeft) + 'px';
-    //         } else {
-    //             img_block[k].style.left = slideWidth + 'px';
-    //             img_block[0].style.left = 0 + 'px';
-    //             k = 0;
-    //             line_icons[0].className = "line-icon line-icon-light";
-    //             line_icons[1].className = "line-icon line-icon-dark";
-    //             clearInterval(timeid);
-    //             // var time1 = new Date();
-    //             // var time11 = time1.getTime();
-    //             // console.log(time11);
-    //         }
-    //     }
-    // }
-    // function c_roll() {
-    //     timeid = setInterval(c_slide, 10);
-    // }
-    // var c_roll_time = setInterval(c_roll, 4570);
+    var timer = this.setInterval(loop, 3000);
 
     // 添加按钮效果
     for (i = 0; i < line_icons.length; i++) {
         (function (i) {
             line_icons[i].onclick = function () {
-                if (img_block[0].offsetLeft == 0 || img_block[1].offsetLeft == 0) {
-                    if (line_icons[i].className == "line-icon line-icon-dark") {
-                        for (j = 0; j < line_icons.length; j++) {
-                            if (j == i) {
-                                clearInterval(c_roll_time);
-                                timeid = setInterval(c_slide, 10);
-                                c_roll_time = setInterval(c_roll, 4570);
-                                line_icons[j].className = "line-icon line-icon-light";
-                            } else {
-                                line_icons[j].className = "line-icon line-icon-dark";
-                            }
-                        }
-                    }
-                }
+                clearInterval(timer);
+                num = i+1;
+                loop();
+                timer = setInterval(loop, 3000);
+
+                // if (img_block[0].offsetLeft == 0 || img_block[1].offsetLeft == 0) {
+                //     if (line_icons[i].className == "line-icon line-icon-dark") {
+                //         for (j = 0; j < line_icons.length; j++) {
+                //             if (j == i) {
+                //                 clearInterval(c_roll_time);
+                //                 timeid = setInterval(c_slide, 10);
+                //                 c_roll_time = setInterval(c_roll, 4570);
+                //                 line_icons[j].className = "line-icon line-icon-light";
+                //             } else {
+                //                 line_icons[j].className = "line-icon line-icon-dark";
+                //             }
+                //         }
+                //     }
+                // }
             }
         })(i);
     }
