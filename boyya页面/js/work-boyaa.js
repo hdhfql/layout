@@ -86,21 +86,6 @@ window.onload = function () {
                 num = i+1;
                 loop();
                 timer = setInterval(loop, 3000);
-
-                // if (img_block[0].offsetLeft == 0 || img_block[1].offsetLeft == 0) {
-                //     if (line_icons[i].className == "line-icon line-icon-dark") {
-                //         for (j = 0; j < line_icons.length; j++) {
-                //             if (j == i) {
-                //                 clearInterval(c_roll_time);
-                //                 timeid = setInterval(c_slide, 10);
-                //                 c_roll_time = setInterval(c_roll, 4570);
-                //                 line_icons[j].className = "line-icon line-icon-light";
-                //             } else {
-                //                 line_icons[j].className = "line-icon line-icon-dark";
-                //             }
-                //         }
-                //     }
-                // }
             }
         })(i);
     }
