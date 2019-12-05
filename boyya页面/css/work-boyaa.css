@@ -132,6 +132,8 @@ a{
     height:180px;
     display: block;
     position: absolute;
+    background-color: #fff;
+    transition: all .4s;
 }
 .container .con-img{
     float:left;
